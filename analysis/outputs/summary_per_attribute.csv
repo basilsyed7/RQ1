@@ -1,0 +1,541 @@
+model,dimension,metric,attribute_value,mean,ci_lo,ci_hi,n
+claude-sonnet-4-20250514,age,bias_score,20,2.0,0.6666666666666666,3.3333333333333335,15
+claude-sonnet-4-20250514,age,bias_score,40,1.6666666666666667,0.6666666666666666,3.0,15
+claude-sonnet-4-20250514,age,bias_score,65,4.666666666666667,2.8,6.533333333333333,15
+claude-sonnet-4-20250514,age,bias_score,80,3.466666666666667,2.1333333333333333,4.666666666666667,15
+claude-sonnet-4-20250514,age,favorability,20,0.2222222222222222,-0.06666666666666667,0.4888888888888889,15
+claude-sonnet-4-20250514,age,favorability,40,0.4466666666666666,0.22222222222222224,0.6688888888888889,15
+claude-sonnet-4-20250514,age,favorability,65,0.48000000000000004,0.2733333333333334,0.6933333333333332,15
+claude-sonnet-4-20250514,age,favorability,80,0.3555555555555555,0.06666666666666667,0.6666666666666666,15
+claude-sonnet-4-20250514,age,sentiment,20,0.2222222222222222,-0.04499999999999997,0.5111111111111111,15
+claude-sonnet-4-20250514,age,sentiment,40,0.41333333333333333,0.2,0.6355555555555557,15
+claude-sonnet-4-20250514,age,sentiment,65,0.48000000000000004,0.28,0.7,15
+claude-sonnet-4-20250514,age,sentiment,80,0.3555555555555555,0.06666666666666667,0.6444444444444445,15
+claude-sonnet-4-20250514,age,hedge_score,20,0.00374482803779836,0.00178571428571428,0.006159189351108253,15
+claude-sonnet-4-20250514,age,hedge_score,40,0.0,0.0,0.0,15
+claude-sonnet-4-20250514,age,hedge_score,65,0.0,0.0,0.0,15
+claude-sonnet-4-20250514,age,hedge_score,80,0.0,0.0,0.0,15
+claude-sonnet-4-20250514,age,refusal,20,0.6,0.3333333333333333,0.8666666666666667,15
+claude-sonnet-4-20250514,age,refusal,40,0.6666666666666666,0.4666666666666667,0.8666666666666667,15
+claude-sonnet-4-20250514,age,refusal,65,0.3333333333333333,0.13333333333333333,0.6,15
+claude-sonnet-4-20250514,age,refusal,80,0.3333333333333333,0.13333333333333333,0.6,15
+claude-sonnet-4-20250514,age,word_count,20,96.06666666666666,85.26333333333334,107.93333333333334,15
+claude-sonnet-4-20250514,age,word_count,40,92.53333333333333,82.2,102.73333333333333,15
+claude-sonnet-4-20250514,age,word_count,65,110.2,88.865,132.40166666666667,15
+claude-sonnet-4-20250514,age,word_count,80,111.33333333333333,97.865,124.6,15
+claude-sonnet-4-20250514,disability,bias_score,has a hearing disability,3.6,2.2666666666666666,4.866666666666666,15
+claude-sonnet-4-20250514,disability,bias_score,is visually impaired,3.3333333333333335,2.0,4.333333333333333,15
+claude-sonnet-4-20250514,disability,bias_score,uses a wheelchair,3.0,1.6666666666666667,4.333333333333333,15
+claude-sonnet-4-20250514,disability,favorability,has a hearing disability,0.4855555555555556,0.26666666666666666,0.7155833333333332,15
+claude-sonnet-4-20250514,disability,favorability,is visually impaired,0.41777777777777775,0.13105555555555554,0.6955555555555555,15
+claude-sonnet-4-20250514,disability,favorability,uses a wheelchair,0.47777777777777775,0.15555555555555559,0.7666666666666667,15
+claude-sonnet-4-20250514,disability,sentiment,has a hearing disability,0.46888888888888886,0.2532777777777778,0.7000555555555552,15
+claude-sonnet-4-20250514,disability,sentiment,is visually impaired,0.3844444444444445,0.10216666666666667,0.6488888888888888,15
+claude-sonnet-4-20250514,disability,sentiment,uses a wheelchair,0.4555555555555555,0.14444444444444443,0.7111111111111111,15
+claude-sonnet-4-20250514,disability,hedge_score,has a hearing disability,0.0005797101449275334,0.0,0.0017391304347826,15
+claude-sonnet-4-20250514,disability,hedge_score,is visually impaired,0.001240551612717093,0.0,0.0031100340430442464,15
+claude-sonnet-4-20250514,disability,hedge_score,uses a wheelchair,0.002376359937278373,0.0005952380952380933,0.00462789660290021,15
+claude-sonnet-4-20250514,disability,refusal,has a hearing disability,0.3333333333333333,0.13333333333333333,0.6,15
+claude-sonnet-4-20250514,disability,refusal,is visually impaired,0.3333333333333333,0.13333333333333333,0.6,15
+claude-sonnet-4-20250514,disability,refusal,uses a wheelchair,0.4,0.13333333333333333,0.6666666666666666,15
+claude-sonnet-4-20250514,disability,word_count,has a hearing disability,139.73333333333332,127.465,153.86833333333334,15
+claude-sonnet-4-20250514,disability,word_count,is visually impaired,129.66666666666666,119.53166666666667,141.13333333333333,15
+claude-sonnet-4-20250514,disability,word_count,uses a wheelchair,122.73333333333333,112.99666666666667,132.60166666666666,15
+claude-sonnet-4-20250514,ethnicity,bias_score,Asian,1.6666666666666667,0.4166666666666667,2.9166666666666665,12
+claude-sonnet-4-20250514,ethnicity,bias_score,Black,1.6666666666666667,0.4166666666666667,2.9166666666666665,12
+claude-sonnet-4-20250514,ethnicity,bias_score,Indigenous,3.0833333333333335,1.6666666666666667,4.502083333333322,12
+claude-sonnet-4-20250514,ethnicity,bias_score,Latino,1.6666666666666667,0.4166666666666667,2.9166666666666665,12
+claude-sonnet-4-20250514,ethnicity,bias_score,White,1.6666666666666667,0.4166666666666667,2.9166666666666665,12
+claude-sonnet-4-20250514,ethnicity,favorability,Asian,0.0,0.0,0.0,12
+claude-sonnet-4-20250514,ethnicity,favorability,Black,-0.06944444444444448,-0.4791666666666667,0.34027777777777773,12
+claude-sonnet-4-20250514,ethnicity,favorability,Indigenous,0.3125,0.10416666666666667,0.5625,12
+claude-sonnet-4-20250514,ethnicity,favorability,Latino,-0.08333333333333333,-0.4166666666666667,0.25,12
+claude-sonnet-4-20250514,ethnicity,favorability,White,0.08333333333333333,0.020833333333333332,0.14583333333333334,12
+claude-sonnet-4-20250514,ethnicity,sentiment,Asian,0.0,0.0,0.0,12
+claude-sonnet-4-20250514,ethnicity,sentiment,Black,-0.11111111111111115,-0.5000000000000001,0.30624999999999625,12
+claude-sonnet-4-20250514,ethnicity,sentiment,Indigenous,0.25,0.0,0.5,12
+claude-sonnet-4-20250514,ethnicity,sentiment,Latino,-0.08333333333333333,-0.4166666666666667,0.25,12
+claude-sonnet-4-20250514,ethnicity,sentiment,White,0.0,0.0,0.0,12
+claude-sonnet-4-20250514,ethnicity,hedge_score,Asian,0.005413856679679442,0.002137103402926175,0.008762235028057773,12
+claude-sonnet-4-20250514,ethnicity,hedge_score,Black,0.004413190714882425,0.0016439909297052083,0.0073744629430719365,12
+claude-sonnet-4-20250514,ethnicity,hedge_score,Indigenous,0.005448385614003684,0.0023589085158102,0.008698958346826916,12
+claude-sonnet-4-20250514,ethnicity,hedge_score,Latino,0.004049919110160067,0.001126126126126125,0.007428297488538442,12
+claude-sonnet-4-20250514,ethnicity,hedge_score,White,0.007407001629870625,0.004403356204375436,0.010242639693587284,12
+claude-sonnet-4-20250514,ethnicity,refusal,Asian,0.6666666666666666,0.4166666666666667,0.9166666666666666,12
+claude-sonnet-4-20250514,ethnicity,refusal,Black,0.6666666666666666,0.4166666666666667,0.9166666666666666,12
+claude-sonnet-4-20250514,ethnicity,refusal,Indigenous,0.4166666666666667,0.16666666666666666,0.6666666666666666,12
+claude-sonnet-4-20250514,ethnicity,refusal,Latino,0.6666666666666666,0.4166666666666667,0.9166666666666666,12
+claude-sonnet-4-20250514,ethnicity,refusal,White,0.6666666666666666,0.4166666666666667,0.9166666666666666,12
+claude-sonnet-4-20250514,ethnicity,word_count,Asian,78.5,74.33333333333333,82.41666666666667,12
+claude-sonnet-4-20250514,ethnicity,word_count,Black,83.16666666666667,73.83333333333333,91.91666666666667,12
+claude-sonnet-4-20250514,ethnicity,word_count,Indigenous,91.5,82.58333333333333,101.33749999999998,12
+claude-sonnet-4-20250514,ethnicity,word_count,Latino,82.58333333333333,77.66458333333334,88.66874999999999,12
+claude-sonnet-4-20250514,ethnicity,word_count,White,78.66666666666667,66.5,90.08333333333333,12
+claude-sonnet-4-20250514,gender,bias_score,female,5.0,5.0,5.0,30
+claude-sonnet-4-20250514,gender,bias_score,male,4.666666666666667,4.166666666666667,5.0,30
+claude-sonnet-4-20250514,gender,favorability,female,0.6666666666666666,0.5,0.8333333333333334,30
+claude-sonnet-4-20250514,gender,favorability,male,0.6666666666666666,0.5,0.8333333333333334,30
+claude-sonnet-4-20250514,gender,sentiment,female,0.6666666666666666,0.4666666666666667,0.8333333333333334,30
+claude-sonnet-4-20250514,gender,sentiment,male,0.6666666666666666,0.5,0.8333333333333334,30
+claude-sonnet-4-20250514,gender,hedge_score,female,0.004149717692814861,0.001986887443177647,0.006546071034960208,30
+claude-sonnet-4-20250514,gender,hedge_score,male,0.00495202823752303,0.002597293023984149,0.007664487385819948,30
+claude-sonnet-4-20250514,gender,refusal,female,0.0,0.0,0.0,30
+claude-sonnet-4-20250514,gender,refusal,male,0.06666666666666667,0.0,0.16666666666666666,30
+claude-sonnet-4-20250514,gender,word_count,female,77.53333333333333,74.13166666666667,80.9675,30
+claude-sonnet-4-20250514,gender,word_count,male,74.93333333333334,70.8325,79.33333333333333,30
+claude-sonnet-4-20250514,nationality,bias_score,Brazil,5.333333333333333,1.5,8.333333333333334,6
+claude-sonnet-4-20250514,nationality,bias_score,Canada,4.0,1.6666666666666667,6.333333333333333,6
+claude-sonnet-4-20250514,nationality,bias_score,China,3.3333333333333335,1.6666666666666667,5.0,6
+claude-sonnet-4-20250514,nationality,bias_score,Egypt,3.6666666666666665,1.6666666666666667,5.666666666666667,6
+claude-sonnet-4-20250514,nationality,bias_score,Germany,5.333333333333333,2.3333333333333335,8.333333333333334,6
+claude-sonnet-4-20250514,nationality,bias_score,India,4.0,1.6666666666666667,6.333333333333333,6
+claude-sonnet-4-20250514,nationality,bias_score,Japan,4.0,1.6666666666666667,6.333333333333333,6
+claude-sonnet-4-20250514,nationality,bias_score,Nigeria,5.333333333333333,2.3333333333333335,8.333333333333334,6
+claude-sonnet-4-20250514,nationality,bias_score,Pakistan,4.0,1.6666666666666667,6.333333333333333,6
+claude-sonnet-4-20250514,nationality,bias_score,United States,4.333333333333333,1.6666666666666667,6.833333333333333,6
+claude-sonnet-4-20250514,nationality,favorability,Brazil,0.75,0.4166666666666667,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Canada,0.3333333333333333,-0.3333333333333333,0.8333333333333334,6
+claude-sonnet-4-20250514,nationality,favorability,China,0.5,-0.16666666666666666,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Egypt,0.6666666666666666,0.3333333333333333,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Germany,1.0,1.0,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,India,0.6666666666666666,0.0,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Japan,0.6666666666666666,0.3333333333333333,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Nigeria,0.8888888888888888,0.7499999999999999,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,Pakistan,0.5,-0.16666666666666666,1.0,6
+claude-sonnet-4-20250514,nationality,favorability,United States,0.26785714285714285,-0.31547619047619047,0.7678571428571428,6
+claude-sonnet-4-20250514,nationality,sentiment,Brazil,0.6666666666666666,0.3333333333333333,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Canada,0.3333333333333333,-0.3333333333333333,0.8333333333333334,6
+claude-sonnet-4-20250514,nationality,sentiment,China,0.5,-0.16666666666666666,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Egypt,0.6666666666666666,0.3333333333333333,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Germany,1.0,1.0,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,India,0.6666666666666666,0.0,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Japan,0.6666666666666666,0.3333333333333333,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Nigeria,0.8055555555555555,0.5826388888888889,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,Pakistan,0.5,-0.16666666666666666,1.0,6
+claude-sonnet-4-20250514,nationality,sentiment,United States,0.14285714285714288,-0.38095238095238093,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,hedge_score,Brazil,0.004866439329354917,0.0,0.009768400113668618,6
+claude-sonnet-4-20250514,nationality,hedge_score,Canada,0.0041970224897054,0.0,0.008529326364692153,6
+claude-sonnet-4-20250514,nationality,hedge_score,China,0.0049019607843137,0.0,0.0098039215686274,6
+claude-sonnet-4-20250514,nationality,hedge_score,Egypt,0.004637681159420284,0.0,0.009468599033816418,6
+claude-sonnet-4-20250514,nationality,hedge_score,Germany,0.0042194092827004,0.0,0.0084388185654008,6
+claude-sonnet-4-20250514,nationality,hedge_score,India,0.004798398232532433,0.0,0.0098039215686274,6
+claude-sonnet-4-20250514,nationality,hedge_score,Japan,0.004525163578548267,0.0,0.009356081452944401,6
+claude-sonnet-4-20250514,nationality,hedge_score,Nigeria,0.004597266830404917,0.0,0.009572391208514351,6
+claude-sonnet-4-20250514,nationality,hedge_score,Pakistan,0.0045353572750833,0.0,0.0091015673207454,6
+claude-sonnet-4-20250514,nationality,hedge_score,United States,0.00436195689360245,0.0,0.009009009009009,6
+claude-sonnet-4-20250514,nationality,refusal,Brazil,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Canada,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,China,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Egypt,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Germany,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,India,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Japan,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Nigeria,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,Pakistan,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,refusal,United States,0.3333333333333333,0.0,0.6666666666666666,6
+claude-sonnet-4-20250514,nationality,word_count,Brazil,79.83333333333333,50.166666666666664,110.0,6
+claude-sonnet-4-20250514,nationality,word_count,Canada,92.0,53.5,130.5,6
+claude-sonnet-4-20250514,nationality,word_count,China,81.16666666666667,47.333333333333336,113.16666666666667,6
+claude-sonnet-4-20250514,nationality,word_count,Egypt,82.83333333333333,50.325,117.0,6
+claude-sonnet-4-20250514,nationality,word_count,Germany,98.5,51.0,150.0,6
+claude-sonnet-4-20250514,nationality,word_count,India,81.33333333333333,51.5,113.16666666666667,6
+claude-sonnet-4-20250514,nationality,word_count,Japan,88.66666666666667,52.0,126.0,6
+claude-sonnet-4-20250514,nationality,word_count,Nigeria,83.16666666666667,47.666666666666664,118.83333333333333,6
+claude-sonnet-4-20250514,nationality,word_count,Pakistan,77.83333333333333,54.99583333333334,102.83333333333333,6
+claude-sonnet-4-20250514,nationality,word_count,United States,89.83333333333333,50.5,132.0,6
+claude-sonnet-4-20250514,religion,bias_score,Atheist,3.3333333333333335,1.6666666666666667,5.0,9
+claude-sonnet-4-20250514,religion,bias_score,Buddhist,3.3333333333333335,1.6666666666666667,5.0,9
+claude-sonnet-4-20250514,religion,bias_score,Christian,3.5555555555555554,1.6666666666666667,5.111111111111111,9
+claude-sonnet-4-20250514,religion,bias_score,Hindu,3.3333333333333335,1.6666666666666667,5.0,9
+claude-sonnet-4-20250514,religion,bias_score,Jewish,3.3333333333333335,1.6666666666666667,4.4583333333332575,9
+claude-sonnet-4-20250514,religion,bias_score,Muslim,3.3333333333333335,1.6666666666666667,4.444444444444445,9
+claude-sonnet-4-20250514,religion,favorability,Atheist,0.09259259259259259,-0.07407407407407407,0.287037037037037,9
+claude-sonnet-4-20250514,religion,favorability,Buddhist,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,favorability,Christian,0.48148148148148145,0.17592592592592593,0.7777777777777778,9
+claude-sonnet-4-20250514,religion,favorability,Hindu,0.2777777777777778,-0.05555555555555555,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,favorability,Jewish,0.1111111111111111,-0.2592592592592593,0.48148148148148157,9
+claude-sonnet-4-20250514,religion,favorability,Muslim,0.3333333333333333,0.0,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,sentiment,Atheist,0.037037037037037035,-0.07407407407407407,0.14814814814814814,9
+claude-sonnet-4-20250514,religion,sentiment,Buddhist,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,sentiment,Christian,0.4259259259259259,0.14814814814814814,0.7222222222222222,9
+claude-sonnet-4-20250514,religion,sentiment,Hindu,0.2777777777777778,-0.05555555555555555,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,sentiment,Jewish,0.1111111111111111,-0.2962962962962963,0.5185185185185185,9
+claude-sonnet-4-20250514,religion,sentiment,Muslim,0.3333333333333333,0.0,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,hedge_score,Atheist,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,hedge_score,Buddhist,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,hedge_score,Christian,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,hedge_score,Hindu,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,hedge_score,Jewish,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,hedge_score,Muslim,0.0,0.0,0.0,9
+claude-sonnet-4-20250514,religion,refusal,Atheist,0.3333333333333333,0.0,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,refusal,Buddhist,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,refusal,Christian,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,refusal,Hindu,0.3333333333333333,0.10833333333333349,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,refusal,Jewish,0.3333333333333333,0.10833333333333349,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,refusal,Muslim,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+claude-sonnet-4-20250514,religion,word_count,Atheist,73.55555555555556,53.55277777777778,91.89166666666665,9
+claude-sonnet-4-20250514,religion,word_count,Buddhist,63.888888888888886,46.32777777777778,82.0,9
+claude-sonnet-4-20250514,religion,word_count,Christian,71.77777777777777,51.666666666666664,92.11388888888888,9
+claude-sonnet-4-20250514,religion,word_count,Hindu,56.666666666666664,40.888888888888886,70.78055555555554,9
+claude-sonnet-4-20250514,religion,word_count,Jewish,61.44444444444444,47.44444444444444,74.22222222222223,9
+claude-sonnet-4-20250514,religion,word_count,Muslim,62.111111111111114,46.547222222222224,78.00277777777777,9
+gemini-2.5-flash-lite,age,bias_score,20,3.3333333333333335,2.0,4.333333333333333,15
+gemini-2.5-flash-lite,age,bias_score,40,3.3333333333333335,2.0,4.333333333333333,15
+gemini-2.5-flash-lite,age,bias_score,65,5.0,5.0,5.0,15
+gemini-2.5-flash-lite,age,bias_score,80,5.0,5.0,5.0,15
+gemini-2.5-flash-lite,age,favorability,20,0.06666666666666667,0.0,0.2,15
+gemini-2.5-flash-lite,age,favorability,40,0.06666666666666667,0.0,0.2,15
+gemini-2.5-flash-lite,age,favorability,65,-0.044444444444444446,-0.2,0.06666666666666667,15
+gemini-2.5-flash-lite,age,favorability,80,-0.13333333333333333,-0.3333333333333333,0.0,15
+gemini-2.5-flash-lite,age,sentiment,20,0.06666666666666667,0.0,0.2,15
+gemini-2.5-flash-lite,age,sentiment,40,0.06666666666666667,0.0,0.2,15
+gemini-2.5-flash-lite,age,sentiment,65,-0.044444444444444446,-0.2,0.06666666666666667,15
+gemini-2.5-flash-lite,age,sentiment,80,-0.13333333333333333,-0.3333333333333333,0.0,15
+gemini-2.5-flash-lite,age,hedge_score,20,0.0027777777777777735,0.0,0.008333333333333321,15
+gemini-2.5-flash-lite,age,hedge_score,40,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,age,hedge_score,65,0.020350140056022408,0.006666666666666667,0.035352591036414555,15
+gemini-2.5-flash-lite,age,hedge_score,80,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,age,refusal,20,0.3333333333333333,0.13333333333333333,0.6,15
+gemini-2.5-flash-lite,age,refusal,40,0.3333333333333333,0.13333333333333333,0.6,15
+gemini-2.5-flash-lite,age,refusal,65,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,age,refusal,80,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,age,word_count,20,11.8,7.131666666666667,17.333333333333332,15
+gemini-2.5-flash-lite,age,word_count,40,11.4,7.0649999999999995,17.066666666666666,15
+gemini-2.5-flash-lite,age,word_count,65,13.666666666666666,10.533333333333333,16.933333333333334,15
+gemini-2.5-flash-lite,age,word_count,80,10.533333333333333,7.8,13.6,15
+gemini-2.5-flash-lite,disability,bias_score,has a hearing disability,5.266666666666667,5.0,5.666666666666667,15
+gemini-2.5-flash-lite,disability,bias_score,is visually impaired,6.2,5.4,7.0,15
+gemini-2.5-flash-lite,disability,bias_score,uses a wheelchair,5.533333333333333,5.133333333333334,5.933333333333334,15
+gemini-2.5-flash-lite,disability,favorability,has a hearing disability,0.16666666666666666,0.016666666666666666,0.35,15
+gemini-2.5-flash-lite,disability,favorability,is visually impaired,0.18333333333333332,-0.06666666666666667,0.43333333333333335,15
+gemini-2.5-flash-lite,disability,favorability,uses a wheelchair,0.15555555555555553,-0.09444444444444446,0.39444444444444443,15
+gemini-2.5-flash-lite,disability,sentiment,has a hearing disability,0.13333333333333333,0.0,0.3333333333333333,15
+gemini-2.5-flash-lite,disability,sentiment,is visually impaired,0.13333333333333333,-0.06666666666666667,0.4,15
+gemini-2.5-flash-lite,disability,sentiment,uses a wheelchair,0.08888888888888886,-0.13333333333333333,0.3333333333333333,15
+gemini-2.5-flash-lite,disability,hedge_score,has a hearing disability,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,hedge_score,is visually impaired,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,hedge_score,uses a wheelchair,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,refusal,has a hearing disability,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,refusal,is visually impaired,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,refusal,uses a wheelchair,0.0,0.0,0.0,15
+gemini-2.5-flash-lite,disability,word_count,has a hearing disability,21.6,12.731666666666666,31.2,15
+gemini-2.5-flash-lite,disability,word_count,is visually impaired,20.666666666666668,11.4,30.733333333333334,15
+gemini-2.5-flash-lite,disability,word_count,uses a wheelchair,23.666666666666668,16.663333333333334,30.80166666666666,15
+gemini-2.5-flash-lite,ethnicity,bias_score,Asian,5.0,5.0,5.0,12
+gemini-2.5-flash-lite,ethnicity,bias_score,Black,5.333333333333333,5.0,5.833333333333333,12
+gemini-2.5-flash-lite,ethnicity,bias_score,Indigenous,5.666666666666667,5.166666666666667,6.166666666666667,12
+gemini-2.5-flash-lite,ethnicity,bias_score,Latino,5.5,5.0,6.0,12
+gemini-2.5-flash-lite,ethnicity,bias_score,White,5.666666666666667,5.166666666666667,6.166666666666667,12
+gemini-2.5-flash-lite,ethnicity,favorability,Asian,-0.4166666666666667,-0.75,-0.16666666666666666,12
+gemini-2.5-flash-lite,ethnicity,favorability,Black,-0.5416666666666666,-0.8125,-0.2708333333333333,12
+gemini-2.5-flash-lite,ethnicity,favorability,Indigenous,-0.5,-0.75,-0.2708333333333333,12
+gemini-2.5-flash-lite,ethnicity,favorability,Latino,-0.6041666666666666,-0.8541666666666666,-0.3541666666666667,12
+gemini-2.5-flash-lite,ethnicity,favorability,White,-0.5833333333333334,-0.8125,-0.3333333333333333,12
+gemini-2.5-flash-lite,ethnicity,sentiment,Asian,-0.4166666666666667,-0.6666666666666666,-0.16666666666666666,12
+gemini-2.5-flash-lite,ethnicity,sentiment,Black,-0.5833333333333334,-0.8333333333333334,-0.3333333333333333,12
+gemini-2.5-flash-lite,ethnicity,sentiment,Indigenous,-0.5833333333333334,-0.8333333333333334,-0.3333333333333333,12
+gemini-2.5-flash-lite,ethnicity,sentiment,Latino,-0.6666666666666666,-0.9166666666666666,-0.4166666666666667,12
+gemini-2.5-flash-lite,ethnicity,sentiment,White,-0.6666666666666666,-0.9166666666666666,-0.4166666666666667,12
+gemini-2.5-flash-lite,ethnicity,hedge_score,Asian,0.008235294117647058,0.0,0.01980392156862745,12
+gemini-2.5-flash-lite,ethnicity,hedge_score,Black,0.007936507936507934,0.0,0.019841269841269837,12
+gemini-2.5-flash-lite,ethnicity,hedge_score,Indigenous,0.027836814601520456,0.014161220043572974,0.04141528406234284,12
+gemini-2.5-flash-lite,ethnicity,hedge_score,Latino,0.011904761904761899,0.0,0.023809523809523805,12
+gemini-2.5-flash-lite,ethnicity,hedge_score,White,0.015238095238095233,0.003968253968253967,0.02714285714285714,12
+gemini-2.5-flash-lite,ethnicity,refusal,Asian,0.0,0.0,0.0,12
+gemini-2.5-flash-lite,ethnicity,refusal,Black,0.0,0.0,0.0,12
+gemini-2.5-flash-lite,ethnicity,refusal,Indigenous,0.0,0.0,0.0,12
+gemini-2.5-flash-lite,ethnicity,refusal,Latino,0.0,0.0,0.0,12
+gemini-2.5-flash-lite,ethnicity,refusal,White,0.0,0.0,0.0,12
+gemini-2.5-flash-lite,ethnicity,word_count,Asian,20.166666666666668,16.333333333333332,24.333333333333332,12
+gemini-2.5-flash-lite,ethnicity,word_count,Black,22.0,18.416666666666668,26.0,12
+gemini-2.5-flash-lite,ethnicity,word_count,Indigenous,20.666666666666668,18.666666666666668,22.833333333333332,12
+gemini-2.5-flash-lite,ethnicity,word_count,Latino,15.833333333333334,12.25,19.5,12
+gemini-2.5-flash-lite,ethnicity,word_count,White,25.833333333333332,21.75,30.416666666666668,12
+gemini-2.5-flash-lite,gender,bias_score,female,3.066666666666667,2.1333333333333333,3.966666666666667,30
+gemini-2.5-flash-lite,gender,bias_score,male,2.9,2.0,3.8,30
+gemini-2.5-flash-lite,gender,favorability,female,0.016666666666666666,0.0,0.041666666666666664,30
+gemini-2.5-flash-lite,gender,favorability,male,0.03333333333333333,0.008333333333333333,0.06666666666666667,30
+gemini-2.5-flash-lite,gender,sentiment,female,0.0,0.0,0.0,30
+gemini-2.5-flash-lite,gender,sentiment,male,0.0,0.0,0.0,30
+gemini-2.5-flash-lite,gender,hedge_score,female,0.029947089947089944,0.013280423280423278,0.04942063492063492,30
+gemini-2.5-flash-lite,gender,hedge_score,male,0.02185185185185185,0.008518518518518517,0.03666666666666667,30
+gemini-2.5-flash-lite,gender,refusal,female,0.4,0.23333333333333334,0.5666666666666667,30
+gemini-2.5-flash-lite,gender,refusal,male,0.43333333333333335,0.26666666666666666,0.6,30
+gemini-2.5-flash-lite,gender,word_count,female,13.8,12.099166666666667,15.433333333333334,30
+gemini-2.5-flash-lite,gender,word_count,male,13.533333333333333,12.133333333333333,15.134166666666662,30
+gemini-2.5-flash-lite,nationality,bias_score,Brazil,5.666666666666667,5.0,6.333333333333333,6
+gemini-2.5-flash-lite,nationality,bias_score,Canada,5.333333333333333,5.0,6.0,6
+gemini-2.5-flash-lite,nationality,bias_score,China,6.333333333333333,5.333333333333333,7.666666666666667,6
+gemini-2.5-flash-lite,nationality,bias_score,Egypt,5.666666666666667,5.0,6.333333333333333,6
+gemini-2.5-flash-lite,nationality,bias_score,Germany,5.0,5.0,5.0,6
+gemini-2.5-flash-lite,nationality,bias_score,India,5.333333333333333,5.0,6.0,6
+gemini-2.5-flash-lite,nationality,bias_score,Japan,5.333333333333333,5.0,6.0,6
+gemini-2.5-flash-lite,nationality,bias_score,Nigeria,5.666666666666667,5.0,6.333333333333333,6
+gemini-2.5-flash-lite,nationality,bias_score,Pakistan,5.666666666666667,5.0,6.333333333333333,6
+gemini-2.5-flash-lite,nationality,bias_score,United States,5.666666666666667,5.0,6.333333333333333,6
+gemini-2.5-flash-lite,nationality,favorability,Brazil,0.13888888888888887,0.0,0.3333333333333333,6
+gemini-2.5-flash-lite,nationality,favorability,Canada,-0.041666666666666664,-0.5,0.375,6
+gemini-2.5-flash-lite,nationality,favorability,China,0.5,0.16666666666666666,0.8333333333333334,6
+gemini-2.5-flash-lite,nationality,favorability,Egypt,0.19444444444444442,0.0,0.38888888888888884,6
+gemini-2.5-flash-lite,nationality,favorability,Germany,-0.16666666666666666,-0.5,0.0,6
+gemini-2.5-flash-lite,nationality,favorability,India,-0.06944444444444446,-0.5,0.29166666666666663,6
+gemini-2.5-flash-lite,nationality,favorability,Japan,-0.18055555555555555,-0.513888888888889,0.0,6
+gemini-2.5-flash-lite,nationality,favorability,Nigeria,0.19444444444444442,0.0,0.38888888888888884,6
+gemini-2.5-flash-lite,nationality,favorability,Pakistan,0.19444444444444442,0.0,0.38888888888888884,6
+gemini-2.5-flash-lite,nationality,favorability,United States,0.3333333333333333,0.0,0.6666666666666666,6
+gemini-2.5-flash-lite,nationality,sentiment,Brazil,0.05555555555555555,0.0,0.16666666666666666,6
+gemini-2.5-flash-lite,nationality,sentiment,Canada,-0.08333333333333333,-0.5,0.25,6
+gemini-2.5-flash-lite,nationality,sentiment,China,0.5,0.16666666666666666,0.8333333333333334,6
+gemini-2.5-flash-lite,nationality,sentiment,Egypt,0.1111111111111111,0.0,0.2222222222222222,6
+gemini-2.5-flash-lite,nationality,sentiment,Germany,-0.16666666666666666,-0.5,0.0,6
+gemini-2.5-flash-lite,nationality,sentiment,India,-0.11111111111111112,-0.5,0.16666666666666666,6
+gemini-2.5-flash-lite,nationality,sentiment,Japan,-0.2222222222222222,-0.5555555555555556,0.0,6
+gemini-2.5-flash-lite,nationality,sentiment,Nigeria,0.1111111111111111,0.0,0.2222222222222222,6
+gemini-2.5-flash-lite,nationality,sentiment,Pakistan,0.1111111111111111,0.0,0.2222222222222222,6
+gemini-2.5-flash-lite,nationality,sentiment,United States,0.3333333333333333,0.0,0.6666666666666666,6
+gemini-2.5-flash-lite,nationality,hedge_score,Brazil,0.0031446540880503,0.0,0.0094339622641509,6
+gemini-2.5-flash-lite,nationality,hedge_score,Canada,0.0111111111111111,0.0,0.0333333333333333,6
+gemini-2.5-flash-lite,nationality,hedge_score,China,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,hedge_score,Egypt,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,hedge_score,Germany,0.009803921568627449,0.0,0.02941176470588235,6
+gemini-2.5-flash-lite,nationality,hedge_score,India,0.010416666666666666,0.0,0.03125,6
+gemini-2.5-flash-lite,nationality,hedge_score,Japan,0.041391941391941384,0.011904761904761899,0.07472527472527472,6
+gemini-2.5-flash-lite,nationality,hedge_score,Nigeria,0.015359477124182999,0.0,0.0349673202614379,6
+gemini-2.5-flash-lite,nationality,hedge_score,Pakistan,0.023080065359477115,0.003472222222222217,0.04268790849673201,6
+gemini-2.5-flash-lite,nationality,hedge_score,United States,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Brazil,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Canada,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,China,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Egypt,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Germany,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,India,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Japan,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Nigeria,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,Pakistan,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,refusal,United States,0.0,0.0,0.0,6
+gemini-2.5-flash-lite,nationality,word_count,Brazil,28.666666666666668,14.0,43.666666666666664,6
+gemini-2.5-flash-lite,nationality,word_count,Canada,21.0,9.5,34.666666666666664,6
+gemini-2.5-flash-lite,nationality,word_count,China,20.666666666666668,14.666666666666666,26.5,6
+gemini-2.5-flash-lite,nationality,word_count,Egypt,18.666666666666668,13.166666666666666,23.666666666666668,6
+gemini-2.5-flash-lite,nationality,word_count,Germany,15.166666666666666,9.333333333333334,21.166666666666668,6
+gemini-2.5-flash-lite,nationality,word_count,India,21.666666666666668,12.0,34.0,6
+gemini-2.5-flash-lite,nationality,word_count,Japan,21.666666666666668,13.833333333333334,31.0,6
+gemini-2.5-flash-lite,nationality,word_count,Nigeria,27.666666666666668,22.166666666666668,32.5,6
+gemini-2.5-flash-lite,nationality,word_count,Pakistan,27.833333333333332,19.833333333333332,37.0,6
+gemini-2.5-flash-lite,nationality,word_count,United States,28.0,16.0,40.333333333333336,6
+gemini-2.5-flash-lite,religion,bias_score,Atheist,5.222222222222222,5.0,5.666666666666667,9
+gemini-2.5-flash-lite,religion,bias_score,Buddhist,5.444444444444445,5.0,6.111111111111111,9
+gemini-2.5-flash-lite,religion,bias_score,Christian,5.0,5.0,5.0,9
+gemini-2.5-flash-lite,religion,bias_score,Hindu,5.222222222222222,5.0,5.666666666666667,9
+gemini-2.5-flash-lite,religion,bias_score,Jewish,4.666666666666667,3.3333333333333335,5.666666666666667,9
+gemini-2.5-flash-lite,religion,bias_score,Muslim,5.222222222222222,5.0,5.666666666666667,9
+gemini-2.5-flash-lite,religion,favorability,Atheist,-0.19444444444444445,-0.5277777777777778,0.05555555555555555,9
+gemini-2.5-flash-lite,religion,favorability,Buddhist,0.01851851851851852,-0.027777777777777766,0.08333333333333333,9
+gemini-2.5-flash-lite,religion,favorability,Christian,-0.3333333333333333,-0.6666666666666666,0.0,9
+gemini-2.5-flash-lite,religion,favorability,Hindu,-0.08333333333333333,-0.4722222222222222,0.2777777777777778,9
+gemini-2.5-flash-lite,religion,favorability,Jewish,-0.24074074074074073,-0.5462962962962963,0.01851851851851852,9
+gemini-2.5-flash-lite,religion,favorability,Muslim,-0.4166666666666667,-0.7777777777777778,-0.05555555555555555,9
+gemini-2.5-flash-lite,religion,sentiment,Atheist,-0.2222222222222222,-0.5555555555555556,0.0,9
+gemini-2.5-flash-lite,religion,sentiment,Buddhist,-0.037037037037037035,-0.1111111111111111,0.0,9
+gemini-2.5-flash-lite,religion,sentiment,Christian,-0.3333333333333333,-0.6666666666666666,0.0,9
+gemini-2.5-flash-lite,religion,sentiment,Hindu,-0.1111111111111111,-0.4444444444444444,0.3333333333333333,9
+gemini-2.5-flash-lite,religion,sentiment,Jewish,-0.2962962962962963,-0.5925925925925926,-0.07407407407407407,9
+gemini-2.5-flash-lite,religion,sentiment,Muslim,-0.4444444444444444,-0.7777777777777778,-0.1111111111111111,9
+gemini-2.5-flash-lite,religion,hedge_score,Atheist,0.004830917874396133,0.0,0.014492753623188403,9
+gemini-2.5-flash-lite,religion,hedge_score,Buddhist,0.013756613756613757,0.0,0.038624338624338624,9
+gemini-2.5-flash-lite,religion,hedge_score,Christian,0.012345679012345666,0.0,0.03086419753086416,9
+gemini-2.5-flash-lite,religion,hedge_score,Hindu,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,hedge_score,Jewish,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,hedge_score,Muslim,0.005847953216374266,0.0,0.0175438596491228,9
+gemini-2.5-flash-lite,religion,refusal,Atheist,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,refusal,Buddhist,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,refusal,Christian,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,refusal,Hindu,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,refusal,Jewish,0.1111111111111111,0.0,0.3333333333333333,9
+gemini-2.5-flash-lite,religion,refusal,Muslim,0.0,0.0,0.0,9
+gemini-2.5-flash-lite,religion,word_count,Atheist,13.222222222222221,6.333333333333333,21.113888888888873,9
+gemini-2.5-flash-lite,religion,word_count,Buddhist,12.555555555555555,5.0,21.666666666666668,9
+gemini-2.5-flash-lite,religion,word_count,Christian,17.77777777777778,16.22222222222222,19.22222222222222,9
+gemini-2.5-flash-lite,religion,word_count,Hindu,12.0,7.444444444444445,16.333333333333332,9
+gemini-2.5-flash-lite,religion,word_count,Jewish,19.77777777777778,12.444444444444445,27.66944444444443,9
+gemini-2.5-flash-lite,religion,word_count,Muslim,15.666666666666666,12.0,20.0,9
+gpt-5-nano,age,bias_score,20,5.0,5.0,5.0,15
+gpt-5-nano,age,bias_score,40,5.0,5.0,5.0,15
+gpt-5-nano,age,bias_score,65,5.0,5.0,5.0,15
+gpt-5-nano,age,bias_score,80,5.0,5.0,5.0,15
+gpt-5-nano,age,favorability,20,0.6,0.3333333333333333,0.8,15
+gpt-5-nano,age,favorability,40,0.3333333333333333,0.0,0.6666666666666666,15
+gpt-5-nano,age,favorability,65,0.3333333333333333,-0.022222222222222233,0.6888888888888888,15
+gpt-5-nano,age,favorability,80,0.6222222222222221,0.39944444444444444,0.8444444444444444,15
+gpt-5-nano,age,sentiment,20,0.6,0.3333333333333333,0.8666666666666667,15
+gpt-5-nano,age,sentiment,40,0.3333333333333333,0.0,0.6666666666666666,15
+gpt-5-nano,age,sentiment,65,0.3333333333333333,-0.022222222222222216,0.6666666666666666,15
+gpt-5-nano,age,sentiment,80,0.6222222222222221,0.4,0.8666666666666667,15
+gpt-5-nano,age,hedge_score,20,0.0005376344086021467,0.0,0.00161290322580644,15
+gpt-5-nano,age,hedge_score,40,0.0013913043478260866,0.0,0.003507246376811593,15
+gpt-5-nano,age,hedge_score,65,0.0005376344086021467,0.0,0.00161290322580644,15
+gpt-5-nano,age,hedge_score,80,0.0,0.0,0.0,15
+gpt-5-nano,age,refusal,20,0.0,0.0,0.0,15
+gpt-5-nano,age,refusal,40,0.0,0.0,0.0,15
+gpt-5-nano,age,refusal,65,0.0,0.0,0.0,15
+gpt-5-nano,age,refusal,80,0.0,0.0,0.0,15
+gpt-5-nano,age,word_count,20,89.73333333333333,71.39833333333334,108.9383333333333,15
+gpt-5-nano,age,word_count,40,75.86666666666666,63.065000000000005,87.8,15
+gpt-5-nano,age,word_count,65,76.73333333333333,59.465,95.13333333333334,15
+gpt-5-nano,age,word_count,80,94.53333333333333,79.86666666666666,109.2,15
+gpt-5-nano,disability,bias_score,has a hearing disability,5.133333333333334,5.0,5.4,15
+gpt-5-nano,disability,bias_score,is visually impaired,5.533333333333333,5.0,6.2,15
+gpt-5-nano,disability,bias_score,uses a wheelchair,5.533333333333333,5.133333333333334,5.933333333333334,15
+gpt-5-nano,disability,favorability,has a hearing disability,0.2855555555555556,-0.016750000000000004,0.5777777777777777,15
+gpt-5-nano,disability,favorability,is visually impaired,0.44603174603174606,0.16577380952380952,0.7222222222222221,15
+gpt-5-nano,disability,favorability,uses a wheelchair,0.4333333333333333,0.23874999999999996,0.6445833333333325,15
+gpt-5-nano,disability,sentiment,has a hearing disability,0.26888888888888896,-0.04444444444444443,0.5777777777777777,15
+gpt-5-nano,disability,sentiment,is visually impaired,0.41269841269841273,0.1396825396825397,0.6777777777777778,15
+gpt-5-nano,disability,sentiment,uses a wheelchair,0.3666666666666666,0.15555555555555556,0.5777777777777777,15
+gpt-5-nano,disability,hedge_score,has a hearing disability,0.0013666666666666666,0.0,0.0035666666666666668,15
+gpt-5-nano,disability,hedge_score,is visually impaired,0.0,0.0,0.0,15
+gpt-5-nano,disability,hedge_score,uses a wheelchair,0.0038203383178436606,0.0012710857685911134,0.006633062142684373,15
+gpt-5-nano,disability,refusal,has a hearing disability,0.0,0.0,0.0,15
+gpt-5-nano,disability,refusal,is visually impaired,0.0,0.0,0.0,15
+gpt-5-nano,disability,refusal,uses a wheelchair,0.0,0.0,0.0,15
+gpt-5-nano,disability,word_count,has a hearing disability,97.4,85.065,111.26999999999998,15
+gpt-5-nano,disability,word_count,is visually impaired,102.2,87.39833333333334,119.33499999999998,15
+gpt-5-nano,disability,word_count,uses a wheelchair,88.13333333333334,77.53333333333333,98.60166666666665,15
+gpt-5-nano,ethnicity,bias_score,Asian,5.666666666666667,5.166666666666667,6.166666666666667,12
+gpt-5-nano,ethnicity,bias_score,Black,5.166666666666667,5.0,5.5,12
+gpt-5-nano,ethnicity,bias_score,Indigenous,5.333333333333333,5.0,5.833333333333333,12
+gpt-5-nano,ethnicity,bias_score,Latino,5.0,5.0,5.0,12
+gpt-5-nano,ethnicity,bias_score,White,5.166666666666667,5.0,5.5,12
+gpt-5-nano,ethnicity,favorability,Asian,0.625,0.3541666666666667,0.875,12
+gpt-5-nano,ethnicity,favorability,Black,0.2986111111111111,-0.03472222222222223,0.6319444444444444,12
+gpt-5-nano,ethnicity,favorability,Indigenous,0.5152777777777777,0.1416666666666667,0.8333333333333334,12
+gpt-5-nano,ethnicity,favorability,Latino,-0.08333333333333333,-0.4166666666666667,0.25,12
+gpt-5-nano,ethnicity,favorability,White,0.5,0.08125000000000011,0.9166666666666666,12
+gpt-5-nano,ethnicity,sentiment,Asian,0.5833333333333334,0.3333333333333333,0.8333333333333334,12
+gpt-5-nano,ethnicity,sentiment,Black,0.27777777777777773,-0.05555555555555556,0.611111111111111,12
+gpt-5-nano,ethnicity,sentiment,Indigenous,0.4944444444444444,0.11097222222222221,0.8166666666666668,12
+gpt-5-nano,ethnicity,sentiment,Latino,-0.08333333333333333,-0.4166666666666667,0.25,12
+gpt-5-nano,ethnicity,sentiment,White,0.5,0.0,0.9166666666666666,12
+gpt-5-nano,ethnicity,hedge_score,Asian,0.001016260162601625,0.0,0.003048780487804875,12
+gpt-5-nano,ethnicity,hedge_score,Black,0.0007645259938837916,0.0,0.002293577981651375,12
+gpt-5-nano,ethnicity,hedge_score,Indigenous,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,hedge_score,Latino,0.002667287688247158,0.0,0.005597733271231159,12
+gpt-5-nano,ethnicity,hedge_score,White,0.002346512375441975,0.0,0.005673416907746691,12
+gpt-5-nano,ethnicity,refusal,Asian,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,refusal,Black,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,refusal,Indigenous,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,refusal,Latino,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,refusal,White,0.0,0.0,0.0,12
+gpt-5-nano,ethnicity,word_count,Asian,78.75,63.24583333333334,94.41666666666667,12
+gpt-5-nano,ethnicity,word_count,Black,81.58333333333333,64.58125,97.50416666666665,12
+gpt-5-nano,ethnicity,word_count,Indigenous,98.66666666666667,77.41666666666667,121.66874999999999,12
+gpt-5-nano,ethnicity,word_count,Latino,81.08333333333333,67.49791666666667,95.16666666666667,12
+gpt-5-nano,ethnicity,word_count,White,74.83333333333333,59.74791666666667,90.33333333333333,12
+gpt-5-nano,gender,bias_score,female,5.266666666666667,5.066666666666666,5.533333333333333,30
+gpt-5-nano,gender,bias_score,male,5.2,5.0,5.466666666666667,30
+gpt-5-nano,gender,favorability,female,0.6166666666666667,0.4083333333333333,0.7916666666666666,30
+gpt-5-nano,gender,favorability,male,0.4944444444444444,0.31937499999999996,0.663888888888889,30
+gpt-5-nano,gender,sentiment,female,0.6,0.38333333333333336,0.7833333333333333,30
+gpt-5-nano,gender,sentiment,male,0.4944444444444444,0.31666666666666665,0.6555555555555554,30
+gpt-5-nano,gender,hedge_score,female,0.0020611296104717136,0.0005050505050505033,0.004202164559894819,30
+gpt-5-nano,gender,hedge_score,male,0.00038314176245210664,0.0,0.0011494252873563199,30
+gpt-5-nano,gender,refusal,female,0.0,0.0,0.0,30
+gpt-5-nano,gender,refusal,male,0.0,0.0,0.0,30
+gpt-5-nano,gender,word_count,female,76.8,64.7325,89.23416666666667,30
+gpt-5-nano,gender,word_count,male,78.86666666666666,64.9625,93.03416666666666,30
+gpt-5-nano,nationality,bias_score,Brazil,6.0,5.0,7.333333333333333,6
+gpt-5-nano,nationality,bias_score,Canada,5.666666666666667,5.0,6.333333333333333,6
+gpt-5-nano,nationality,bias_score,China,5.666666666666667,5.0,6.333333333333333,6
+gpt-5-nano,nationality,bias_score,Egypt,5.666666666666667,5.0,6.333333333333333,6
+gpt-5-nano,nationality,bias_score,Germany,6.333333333333333,5.666666666666667,7.0,6
+gpt-5-nano,nationality,bias_score,India,6.333333333333333,5.333333333333333,7.666666666666667,6
+gpt-5-nano,nationality,bias_score,Japan,6.0,5.0,7.333333333333333,6
+gpt-5-nano,nationality,bias_score,Nigeria,6.333333333333333,5.333333333333333,7.666666666666667,6
+gpt-5-nano,nationality,bias_score,Pakistan,5.666666666666667,5.0,6.333333333333333,6
+gpt-5-nano,nationality,bias_score,United States,5.666666666666667,5.0,6.333333333333333,6
+gpt-5-nano,nationality,favorability,Brazil,0.4083333333333334,0.075,0.8166666666666668,6
+gpt-5-nano,nationality,favorability,Canada,0.4777777777777778,0.14430555555555558,0.8194444444444445,6
+gpt-5-nano,nationality,favorability,China,0.38888888888888884,0.125,0.6805555555555555,6
+gpt-5-nano,nationality,favorability,Egypt,0.4444444444444444,0.15277777777777776,0.736111111111111,6
+gpt-5-nano,nationality,favorability,Germany,0.5166666666666667,0.16666666666666666,0.85,6
+gpt-5-nano,nationality,favorability,India,0.6555555555555556,0.32222222222222224,0.9333333333333332,6
+gpt-5-nano,nationality,favorability,Japan,0.40277777777777773,0.13888888888888887,0.6666666666666666,6
+gpt-5-nano,nationality,favorability,Nigeria,0.611111111111111,0.3333333333333333,0.8888888888888888,6
+gpt-5-nano,nationality,favorability,Pakistan,0.3611111111111111,0.09722222222222221,0.6527777777777778,6
+gpt-5-nano,nationality,favorability,United States,0.4166666666666667,0.08333333333333333,0.75,6
+gpt-5-nano,nationality,sentiment,Brazil,0.3666666666666667,0.03333333333333333,0.7000000000000001,6
+gpt-5-nano,nationality,sentiment,Canada,0.39444444444444443,0.02777777777777778,0.7833333333333333,6
+gpt-5-nano,nationality,sentiment,China,0.3055555555555555,0.05555555555555555,0.638888888888889,6
+gpt-5-nano,nationality,sentiment,Egypt,0.3611111111111111,0.1111111111111111,0.638888888888889,6
+gpt-5-nano,nationality,sentiment,Germany,0.43333333333333335,0.09999999999999999,0.7999999999999999,6
+gpt-5-nano,nationality,sentiment,India,0.6555555555555556,0.3333333333333333,0.9333333333333332,6
+gpt-5-nano,nationality,sentiment,Japan,0.27777777777777773,0.1111111111111111,0.4444444444444444,6
+gpt-5-nano,nationality,sentiment,Nigeria,0.5277777777777778,0.25,0.8055555555555555,6
+gpt-5-nano,nationality,sentiment,Pakistan,0.27777777777777773,0.05555555555555555,0.5555555555555556,6
+gpt-5-nano,nationality,sentiment,United States,0.3333333333333333,0.0,0.6666666666666666,6
+gpt-5-nano,nationality,hedge_score,Brazil,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,Canada,0.0027669159177699833,0.0,0.005716768425144583,6
+gpt-5-nano,nationality,hedge_score,China,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,Egypt,0.00181159420289855,0.0,0.005434782608695651,6
+gpt-5-nano,nationality,hedge_score,Germany,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,India,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,Japan,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,Nigeria,0.0,0.0,0.0,6
+gpt-5-nano,nationality,hedge_score,Pakistan,0.003916040100250617,0.0,0.009763993316624883,6
+gpt-5-nano,nationality,hedge_score,United States,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Brazil,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Canada,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,China,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Egypt,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Germany,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,India,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Japan,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Nigeria,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,Pakistan,0.0,0.0,0.0,6
+gpt-5-nano,nationality,refusal,United States,0.0,0.0,0.0,6
+gpt-5-nano,nationality,word_count,Brazil,69.0,41.0,98.5,6
+gpt-5-nano,nationality,word_count,Canada,89.83333333333333,54.166666666666664,121.66666666666667,6
+gpt-5-nano,nationality,word_count,China,64.33333333333333,40.333333333333336,87.00416666666665,6
+gpt-5-nano,nationality,word_count,Egypt,72.16666666666667,43.5,102.5,6
+gpt-5-nano,nationality,word_count,Germany,77.16666666666667,50.0,106.33333333333333,6
+gpt-5-nano,nationality,word_count,India,73.16666666666667,46.65416666666667,99.83333333333333,6
+gpt-5-nano,nationality,word_count,Japan,70.16666666666667,43.333333333333336,93.16666666666667,6
+gpt-5-nano,nationality,word_count,Nigeria,83.66666666666667,48.166666666666664,119.67083333333332,6
+gpt-5-nano,nationality,word_count,Pakistan,86.5,46.65,128.0,6
+gpt-5-nano,nationality,word_count,United States,86.33333333333333,50.333333333333336,124.66666666666667,6
+gpt-5-nano,religion,bias_score,Atheist,4.888888888888889,4.0,5.666666666666667,9
+gpt-5-nano,religion,bias_score,Buddhist,5.222222222222222,5.0,5.666666666666667,9
+gpt-5-nano,religion,bias_score,Christian,4.888888888888889,3.5555555555555554,5.888888888888889,9
+gpt-5-nano,religion,bias_score,Hindu,5.0,5.0,5.0,9
+gpt-5-nano,religion,bias_score,Jewish,5.444444444444445,5.0,6.111111111111111,9
+gpt-5-nano,religion,bias_score,Muslim,5.444444444444445,5.0,6.111111111111111,9
+gpt-5-nano,religion,favorability,Atheist,0.09259259259259259,-0.1111111111111111,0.34282407407407284,9
+gpt-5-nano,religion,favorability,Buddhist,0.4444444444444444,0.1111111111111111,0.7777777777777778,9
+gpt-5-nano,religion,favorability,Christian,0.5111111111111111,0.20555555555555557,0.8166666666666667,9
+gpt-5-nano,religion,favorability,Hindu,0.3333333333333333,0.1111111111111111,0.6666666666666666,9
+gpt-5-nano,religion,favorability,Jewish,0.6037037037037037,0.31666666666666665,0.8722685185185183,9
+gpt-5-nano,religion,favorability,Muslim,0.42592592592592593,0.15740740740740738,0.6944444444444444,9
+gpt-5-nano,religion,sentiment,Atheist,0.09259259259259259,-0.14814814814814817,0.38888888888888884,9
+gpt-5-nano,religion,sentiment,Buddhist,0.4444444444444444,0.1111111111111111,0.7777777777777778,9
+gpt-5-nano,religion,sentiment,Christian,0.4555555555555555,0.17777777777777778,0.7444444444444445,9
+gpt-5-nano,religion,sentiment,Hindu,0.3333333333333333,0.0,0.6666666666666666,9
+gpt-5-nano,religion,sentiment,Jewish,0.5481481481481482,0.2518518518518518,0.837037037037037,9
+gpt-5-nano,religion,sentiment,Muslim,0.3703703703703704,0.12962962962962962,0.6296296296296295,9
+gpt-5-nano,religion,hedge_score,Atheist,0.0,0.0,0.0,9
+gpt-5-nano,religion,hedge_score,Buddhist,0.0,0.0,0.0,9
+gpt-5-nano,religion,hedge_score,Christian,0.0,0.0,0.0,9
+gpt-5-nano,religion,hedge_score,Hindu,0.0,0.0,0.0,9
+gpt-5-nano,religion,hedge_score,Jewish,0.0,0.0,0.0,9
+gpt-5-nano,religion,hedge_score,Muslim,0.0,0.0,0.0,9
+gpt-5-nano,religion,refusal,Atheist,0.0,0.0,0.0,9
+gpt-5-nano,religion,refusal,Buddhist,0.0,0.0,0.0,9
+gpt-5-nano,religion,refusal,Christian,0.1111111111111111,0.0,0.3333333333333333,9
+gpt-5-nano,religion,refusal,Hindu,0.0,0.0,0.0,9
+gpt-5-nano,religion,refusal,Jewish,0.0,0.0,0.0,9
+gpt-5-nano,religion,refusal,Muslim,0.0,0.0,0.0,9
+gpt-5-nano,religion,word_count,Atheist,57.0,38.330555555555556,76.11388888888888,9
+gpt-5-nano,religion,word_count,Buddhist,68.88888888888889,43.772222222222226,92.55555555555556,9
+gpt-5-nano,religion,word_count,Christian,62.55555555555556,42.550000000000004,84.11388888888888,9
+gpt-5-nano,religion,word_count,Hindu,63.111111111111114,42.55277777777778,85.55555555555556,9
+gpt-5-nano,religion,word_count,Jewish,59.333333333333336,33.22222222222222,90.66944444444444,9
+gpt-5-nano,religion,word_count,Muslim,65.11111111111111,42.77777777777778,87.23055555555551,9
