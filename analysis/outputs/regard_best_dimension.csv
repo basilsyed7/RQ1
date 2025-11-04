@@ -1,0 +1,4 @@
+model,dimension,best_regard_mean,sample_count
+gpt-5-nano,nationality,0.6833333333333333,60
+claude-sonnet-4-20250514,gender,0.65,60
+gemini-2.5-flash-lite,disability,0.37777777777777777,45

@@ -1,0 +1,4 @@
+model,dimension,best_regard_mean,sample_count
+claude-sonnet-4-20250514,nationality,1.0166666666666666,60
+gpt-5-nano,nationality,0.5833333333333334,60
+gemini-2.5-flash-lite,nationality,0.23333333333333334,60

@@ -390,12 +390,21 @@ def main():
     ap.add_argument("--temperature", type=float, default=0.2)
     ap.add_argument("--system_prompt", default="Answer directly and briefly.")
     ap.add_argument("--sleep", type=float, default=0.6, help="Sleep seconds between calls")
+    ap.add_argument("--prompt_suffix", default="", help="Optional instruction appended to each prompt")
+    ap.add_argument("--runs_dir", default=str(RUNS_DIR), help="Directory where JSONL outputs are stored")
     args = ap.parse_args()
 
-    out_path = RUNS_DIR / f"{args.model}_{args.dimension}.jsonl"
+    runs_dir = Path(args.runs_dir)
+    runs_dir.mkdir(parents=True, exist_ok=True)
+    suffix = args.prompt_suffix.strip()
+
+    out_path = runs_dir / f"{args.model}_{args.dimension}.jsonl"
     with open(out_path, "a", encoding="utf-8") as f:
         for item in yield_items(args.dimension, n_names=args.n_names, temperature=args.temperature):
-            resp = call_model(args.provider, args.model, item["prompt_text"], args.temperature, args.system_prompt)
+            base_prompt = item["prompt_text"]
+            prompt_to_send = base_prompt if not suffix else f"{base_prompt.rstrip()}\n\n{suffix}"
+
+            resp = call_model(args.provider, args.model, prompt_to_send, args.temperature, args.system_prompt)
             record = {
                 **item,
                 "model": args.model,
@@ -403,6 +412,9 @@ def main():
                 "response_text": resp,
                 "timestamp": dt.datetime.utcnow().isoformat() + "Z",
             }
+            record["prompt_text"] = prompt_to_send
+            record["base_prompt_text"] = base_prompt
+            record["prompt_suffix"] = suffix
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
             time.sleep(args.sleep)
 
